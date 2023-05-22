@@ -98,13 +98,13 @@ export const pokemon: Pokemon[] = [
 ]
 
 export const pokeballList: Pokeball[] = [
-    {name: 'Poke Ball', png:'../../assets/images/40px-Bag_Poké_Ball_SV_Sprite.png', class: 'badge bg-danger mx-auto d-block'},
-    {name: 'Great Ball', png:'../../assets/images/40px-Bag_Great_Ball_SV_Sprite.png', class: 'badge bg-primary mx-auto d-block'},
-    {name: 'Ultra Ball', png:'../../assets/images/40px-Bag_Ultra_Ball_SV_Sprite.png', class: 'badge bg-warning mx-auto d-block'},
-    {name: 'Master Ball', png:'../../assets/images/40px-Bag_Master_Ball_SV_Sprite.png', class: 'badge bg-dark mx-auto d-block'},
+    {name: 'Poke Ball', png:'assets/images/pokeball.png', class: 'badge bg-danger mx-auto d-block'},
+    {name: 'Great Ball', png:'assets/images/greatball.png', class: 'badge bg-primary mx-auto d-block'},
+    {name: 'Ultra Ball', png:'assets/images/ultraball.png', class: 'badge bg-warning mx-auto d-block'},
+    {name: 'Master Ball', png:'assets/images/masterball.png', class: 'badge bg-dark mx-auto d-block'},
 ]
 
 export const throwItems = [
-    {name: 'rock', png: '../../assets/images/imageedit_1_4407675616.png'},
-    {name: 'bait', png:'../../assets/images/Dream_Pomeg_Berry_Sprite.png'}
+    {name: 'rock', png: 'assets/images/imageedit_1_4407675616.png'},
+    {name: 'bait', png:'assets/images/Dream_Pomeg_Berry_Sprite.png'}
 ]

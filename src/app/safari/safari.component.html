@@ -65,7 +65,7 @@
 
         <div class="col-7 offset-2 col-md-4 offset-md-2 ">
             <a *ngIf="selectedPokemon && smokeFrame === 0 && !catchAni" href="{{selectedPokemon.link}}"><img class="img-fluid" [@rotatedState]="eat" [@angryState]="angry" src="{{selectedPokemon.png}}" ></a>
-            <img *ngIf="smokeFrame > 1"  src='{{"../../assets/images/smoke_"+smokeFrame+".png"}}' width="270" height="270"/>
+            <img *ngIf="smokeFrame > 1"  src='{{"assets/images/smoke_"+smokeFrame+".png"}}' width="270" height="270"/>
             <img *ngIf="catchAni && selectedPokemon" [@initCatchState]="initCatch" class="mx-auto d-block" src="{{userPokeball?.png}}">
         </div>
         <div class="col-3 col-md-1">
@@ -83,7 +83,7 @@
         <div class="col-6 align-items-end">
             <div class="row align-items-end">
             <div class="col-md-6 align-items-end">
-                <img src='{{"../../assets/images/back_sprite_"+frame+".png"}}' width="100%" height="100%"/>
+                <img src='{{"assets/images/back_sprite_"+frame+".png"}}' width="100%" height="100%"/>
             </div>
             <div class="col-md-6">
                 <img *ngIf="isThrowing" class="mx-auto d-block" [@throw]="throw"  class="mx-auto d-block" src="{{throwPng}}" height="50" width="50">

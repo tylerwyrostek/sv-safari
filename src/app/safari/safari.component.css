@@ -42,14 +42,14 @@
 
   .bg-2{
       height: 66vh;
-    background-image:url('../../assets/images/Safari_RTDX.png');
+    background-image:url('/assets/images/Safari_RTDX.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .bg-main{
-  background-image:url('../../assets/images/Kanto_Safari_Zone.webp');
+  background-image:url('/assets/images/Kanto_Safari_Zone.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
