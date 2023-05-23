@@ -1,3 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import "~@ng-select/ng-select/themes/default.theme.css";
+
+@font-face {
+    font-family: bebas nueue;
+    src: url(assets/BebasNeue-Regular.ttf) format("opentype");
+  }
