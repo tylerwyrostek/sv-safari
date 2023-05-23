@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "postinstall": "ngcc",
-    "deploy": "ng deploy --base-href=/sv-safari/"
+    "deploy": "ng deploy --cname=sv-safari.app"
   },
   "private": true,
   "dependencies": {
