@@ -265,6 +265,7 @@ public async huntChange(){
   this.disabled = true;
   this.catchAni = false;
   this.showModal = false;
+  this.userPokeball = this.pokeballs[0];
   this.typingCallback('What will you do?');
   await this.delay(350)
   this.disabled = false;
