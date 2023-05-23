@@ -85,7 +85,7 @@ export const pokemon: Pokemon[] = [
     {name: 'Scream Tail', catch: 60, bait:55, rock: 40, png: 'https://img.pokemondb.net/sprites/scarlet-violet/normal/scream-tail.png', link: 'https://pokemondb.net/pokedex/scream-tail'},
     {name: 'Brute Bonnet', catch: 60, bait:65, rock: 50, png: 'https://img.pokemondb.net/sprites/scarlet-violet/normal/brute-bonnet.png', link: 'https://pokemondb.net/pokedex/brute-bonnet'},
     {name: 'Flutter Mane', catch: 45, bait:70, rock: 55, png: 'https://img.pokemondb.net/sprites/scarlet-violet/normal/flutter-mane.png', link: 'https://pokemondb.net/pokedex/flutter-mane'},
-    {name: 'Sliter Wing', catch: 55, bait:70, rock: 30, png: 'https://img.pokemondb.net/sprites/scarlet-violet/normal/sliter-wing.png', link: 'https://pokemondb.net/pokedex/sliter-wing'},
+    {name: 'Slither Wing', catch: 55, bait:70, rock: 30, png: 'https://img.pokemondb.net/sprites/scarlet-violet/normal/slither-wing.png', link: 'https://pokemondb.net/pokedex/slither-wing'},
     {name: 'Sany Shocks', catch: 70, bait:30, rock: 65, png: 'https://img.pokemondb.net/sprites/scarlet-violet/normal/sandy-shocks.png', link: 'https://pokemondb.net/pokedex/sandy-shocks'},
     {name: 'Iron Treads', catch: 55, bait:50, rock: 65, png: 'https://img.pokemondb.net/sprites/scarlet-violet/normal/iron-treads.png', link: 'https://pokemondb.net/pokedex/iron-treads'},
     {name: 'Iron Bundle', catch: 65, bait:30, rock: 40, png: 'https://img.pokemondb.net/sprites/scarlet-violet/normal/iron-bundle.png', link: 'https://pokemondb.net/pokedex/iron-bundle'},
