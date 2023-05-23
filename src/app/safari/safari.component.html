@@ -51,7 +51,7 @@
 
         <div class="col-10 col-md-3 mt-4">
             <label><b>Choose who to hunt!</b></label>
-            <ng-select [(ngModel)]="selectedPokemon">
+            <ng-select [(ngModel)]="selectedPokemon" (change)="huntChange()">
                 <ng-option *ngFor="let pokemon of safariList" [value]="pokemon">{{pokemon.name}}</ng-option>
              </ng-select>
              <div class="form-check">

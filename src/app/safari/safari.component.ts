@@ -264,6 +264,7 @@ private delay(ms: number) {
 public async huntChange(){
   this.disabled = true;
   this.catchAni = false;
+  this.showModal = false;
   this.typingCallback('What will you do?');
   await this.delay(350)
   this.disabled = false;
